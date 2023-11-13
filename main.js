@@ -54,7 +54,7 @@ var rightWristY = 0
 function modelLoaded(){
 console.log("modelo carregado!")
 }
-function gotPoses(){
+function gotPoses(results){
     if(results.length > 0){
         console.log(results)
        
